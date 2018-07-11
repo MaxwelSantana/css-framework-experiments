@@ -1,0 +1,18 @@
+{
+    "html": {
+        "snippets": {
+            "ull": "ul>li[id=${1} class=${2}]*2{ Will work with html, jade, haml and slim }",
+            "oll": "<ol><li id=${1} class=${2}> Will only work in html </ol>",
+            "ran": "{ Wrap plain text in curly braces }",
+            "dash": "div.wrapper>(nav.sidebar)+div.container"
+            //"dash": "<div class=\"wrapper\"><nav class=\"sidebar\"></nav><div class=\"container\"></div></div>"
+        }
+    },
+    "css": {
+        "snippets": {
+            "cb": "color: black",
+            "bsd": "border: 1px solid ${1:red}",
+            "ls": "list-style: ${1}"
+        }
+    }
+}
