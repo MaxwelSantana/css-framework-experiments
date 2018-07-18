@@ -1,0 +1,7 @@
+@import 'reset.css';
+@import 'sidebar.css';
+@import 'header.css';
+
+.wrapper {
+    background-color: #F5F6FA;
+}
